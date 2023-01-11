@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>LWM's Deep Storage</li>
+		</mods>
+
+			<match Class="PatchOperationSequence">
+				<operations>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName = "LWM_VeryBigShelf"]/comps/li[@Class="LWM.DeepStorage.Properties"]/additionalTimeEachStack</xpath>
+							<value>
+								<additionalTimeEachStack>10</additionalTimeEachStack>
+							</value>
+					</li>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName = "LWM_VeryBigShelf"]/comps/li[@Class="LWM.DeepStorage.Properties"]/additionalTimeStackSize</xpath>
+							<value>
+								<additionalTimeStackSize>1</additionalTimeStackSize>
+							</value>
+					</li>
+				</operations>	
+			</match>
+	
+	</Operation>
+
+
+					<!-- <Operation Class="PatchOperationReplace"> -->
+						<!-- <xpath>Defs/ThingDef[defName = "LWM_VeryBigShelf"]/comps/li[@Name="LWM.DeepStorage.Properties"]/additionalTimeEachStack</xpath> -->
+							<!-- <value> -->
+								<!-- <additionalTimeEachStack>10</additionalTimeEachStack> -->
+							<!-- </value> -->
+					<!-- </Operation> -->
+</Patch>

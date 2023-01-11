@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[defName = "Steel"]/statBases/Mass</xpath>
+		<value>			
+			<Mass>.01</Mass>			
+		</value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName = "WoodLog"]/statBases/Mass</xpath>
+		<value>
+			<Mass>.01</Mass>
+		</value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName = "BlocksSandstone"]/statBases/Mass</xpath>
+		<value>
+			<Mass>.01</Mass>
+		</value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName = "BlocksGranite"]/statBases/Mass</xpath>
+		<value>
+			<Mass>.01</Mass>
+		</value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName = "BlocksLimestone"]/statBases/Mass</xpath>
+		<value>
+			<Mass>.01</Mass>
+		</value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName = "BlocksSlate"]/statBases/Mass</xpath>
+		<value>
+			<Mass>.01</Mass>
+		</value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName = "BlocksMarble"]/statBases/Mass</xpath>
+		<value>
+			<Mass>.01</Mass>
+		</value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName = "Uranium"]/statBases/Mass</xpath>
+		<value>
+			<Mass>.01</Mass>
+		</value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName = "Jade"]/statBases/Mass</xpath>
+		<value>
+			<Mass>.01</Mass>
+		</value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName = "Plasteel"]/statBases/Mass</xpath>
+		<value>
+			<Mass>.01</Mass>
+		</value>
+  </Operation>
+  
+</Patch>
