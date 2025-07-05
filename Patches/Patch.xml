@@ -13,7 +13,14 @@
 			<Mass>.01</Mass>
 		</value>
   </Operation>
-  
+	
+	  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName = "ChunkSandstone"]/statBases/Mass</xpath>
+		<value>
+			<Mass>.01</Mass>
+		</value>
+  </Operation>
+	
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName = "BlocksSandstone"]/statBases/Mass</xpath>
 		<value>
@@ -21,8 +28,22 @@
 		</value>
   </Operation>
   
+	  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName = "ChunkGranite"]/statBases/Mass</xpath>
+		<value>
+			<Mass>.01</Mass>
+		</value>
+  </Operation>
+	
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName = "BlocksGranite"]/statBases/Mass</xpath>
+		<value>
+			<Mass>.01</Mass>
+		</value>
+  </Operation>
+	
+	  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName = "ChunkLimestone"]/statBases/Mass</xpath>
 		<value>
 			<Mass>.01</Mass>
 		</value>
@@ -34,9 +55,23 @@
 			<Mass>.01</Mass>
 		</value>
   </Operation>
+	
+	  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName = "ChunkSlate"]/statBases/Mass</xpath>
+		<value>
+			<Mass>.01</Mass>
+		</value>
+  </Operation>
   
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName = "BlocksSlate"]/statBases/Mass</xpath>
+		<value>
+			<Mass>.01</Mass>
+		</value>
+  </Operation>
+	
+	  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName = "ChunkMarble"]/statBases/Mass</xpath>
 		<value>
 			<Mass>.01</Mass>
 		</value>
